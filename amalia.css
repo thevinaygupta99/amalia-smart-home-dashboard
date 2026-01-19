@@ -1,0 +1,323 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*style for main*/
+
+#Main{
+	display: flex;
+	height: 700px;
+	width: 1300px;
+	margin: 20px 30px 20px 30px;
+	border: 1px solid black;
+	border-radius: 14px;
+
+}
+
+/*Style for sidebar*/
+
+.sidebar{
+	display: flex;
+	flex-direction: column;
+	height: 700px;
+	width: 12%;
+	background-color: #8B008B;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+	gap: 20px;
+	color: white;
+
+
+}
+.main-hero-section{
+	display: flex;
+	flex-direction: column;
+
+}
+.log-info{
+	padding-top: 230px;
+}
+/*Style for Navbar*/
+
+.Navbar{
+	display: flex;
+	height: 70px;
+	width: 92%;
+	align-items: center;
+	padding-left: 70px;
+	gap: 15px;
+}
+#icon{
+	color: black;
+	font-size: 30px;
+	border: 0px solid white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+#icon-2{
+	border: 1px solid black;
+	height: 23px;
+	width: 420px;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-left: 6px;
+	font-size: 15px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+#nav-search{
+	border: none;
+}
+#nav-btn{
+	background-color: #8B008B;
+	height: 25px;
+	width: 70px;
+	font-size:0px;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+#nav-btn button{
+	border: none;
+	background-color: transparent;
+	font-size: 18px;
+	color: white;
+	padding: 2px 2px 2px 5px;
+
+}
+.nav-icon-2{
+	display: flex;
+	flex-direction: row;
+	padding-left: 320px;
+    font-size: 20px;
+    gap: 15px;
+}
+
+/*style for herosection*/
+
+.hero-section{
+	display: flex;
+	background-image: url(amalia-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 13px 20px 15px 30px;
+	height: 200px;
+	width: 680px;
+	border-radius: 14px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hero p{
+    padding-left: 20px;
+}
+.hero h1{
+	color: #8B008B;
+	padding-left: 20px;
+}
+.temp-info{
+	display: flex;
+	gap: 10px;
+	padding: 10px 10px 5px 10px;
+
+}
+.weather-info{
+	display: flex;
+	gap: 10px;
+	padding: 5px 10px 10px 10px;
+}
+.amalia{
+	width: 540px;
+	padding-right: 10px;
+}
+.amalia img{
+	height: 180px;
+	width: 80%;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+/*style for status*/
+
+.full-status{
+	width: 680px;
+	margin-left: 25px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 12px;
+}
+#status{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 200px;  
+	padding: 5px 5px 5px 5px;
+}
+
+.status-btns{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+}
+.hr-line{
+	width: 88%;
+	margin-left: 48px;
+	margin-bottom: 10px;
+}
+
+/*Style for lights & intensity*/
+
+.light-temp{
+	display: flex;
+	gap: 40px;
+	margin-left: 2px;
+}
+
+.light-temp img{
+	height: 190px;
+	width: 80%px;
+}
+.light-top{
+	display: flex;
+	gap: 10px;
+}
+#for-icon{
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+#icons-on{
+	font-size: 20px;
+	color: green;
+}
+#for-icon p{
+	padding-left: 30px;
+	color: grey;
+}
+#Lt-icons{
+	font-size: 20px;
+	padding-top: 5px;
+}
+.li-m{
+	display: flex;
+}
+.li-m i{
+	margin-top: 80px;
+    font-size: 21px;
+    border: 1px solid black;
+}
+.te-m{
+	display: flex;
+}
+.te-m i{
+ 	margin-top: 90px;
+    font-size: 21px;
+    border: 1px solid black;
+    margin-right: 40px; 
+    background-col
+}
+
+/*style for footer-items*/
+
+.footer{
+	display: flex;
+	margin-left: 10px;
+	gap: 20px;
+}
+
+#toggle{
+	color: green;
+}
+
+.air{
+	display: flex;
+	width: 187px;
+	height: 38px;
+	margin: 12px 12px 12px 15px;
+	border-radius: 5px;
+	padding-top: 4px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+
+#tv{
+	display: flex;
+	width: 187px;
+	height: 38px;
+	margin: 12px 12px 12px 15px;
+	border-radius: 5px;
+	padding-top: 4px;
+	gap: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#camera{
+	display: flex;
+	width: 193px;
+	height: 38px;
+	margin: 12px 12px 12px 15px;
+	border-radius: 5px;
+	padding-top: 4px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+#s-icon{
+	font-size: 25px;
+}
+.member-main{
+	display: flex;
+	flex-direction: column;
+	height: 320px;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 30px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 9px;
+}
+.heading-mem{
+   margin-left: 10px;
+}
+.hero-main{
+	display: flex;
+
+}
+.photo-main{
+	display: flex;
+	gap: 15px;
+	margin-left: 10px;
+}
+#photo{
+	height: 110px;
+	width: 75px;
+	border-radius: 30px;
+}
+.pets-main{
+	margin-top: 11px;
+}
+.pets{
+	display: flex;
+	gap: 19px;
+	margin-top: 9px;
+	margin-left: 9px;
+}
+#pet-h{
+	margin-left: 10px;
+}
+#line{
+	margin-left: 20px;
+	width: 90%;
+	margin-top: 15px;
+}
+.main-spend{
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		width: 400px;
+		border-radius: 9px;
+		margin-left: 30px;
+		margin-top: 15px;
+		
+}
+.hist{
+
+}
+.hist img{
+	height: 200px;
+	width: 360px;
+}
+#spend{
+	margin-left: 10px;
+}
